@@ -2,12 +2,12 @@
 # - Pencatatan Income # - Tampilkan Riwayat Transaksi # - Hitung Saldo Akhir
 
 def keterangan():
-    print("-----------------------------------------")
-    print("| A. Pencatatan Income Dan Outcome      |")
-    print("| B. Tampilkan Riwayat Transaksi        |")
-    print("| C. Hitung Saldo Akhir                 |")
-    print("| D. Keluar                             |")
-    print("-----------------------------------------")
+    print("---------------------------------------------")
+    print("| A. Pencatatan Income Dan Outcome          |")
+    print("| B. Tampilkan Riwayat Transaksi            |")
+    print("| C. Hitung Saldo Akhir                     |")
+    print("| D. Keluar                                 |")
+    print("---------------------------------------------")
 
 income = []
 outcome = []
