@@ -1,6 +1,7 @@
 # Manajemen Keuangan 
 # - Pencatatan Income # - Tampilkan Riwayat Transaksi # - Hitung Saldo Akhir
 
+#tes
 def keterangan():
     print("---------------------------------------------")
     print("| A. Pencatatan Income Dan Outcome          |")
