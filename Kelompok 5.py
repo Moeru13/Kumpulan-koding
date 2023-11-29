@@ -20,7 +20,7 @@ while True :
         pengeluaran = float(input("Masukkan Pengeluaran : Rp "))
         income.append(pemasukkan)
         outcome.append(pengeluaran)
-        print()
+        print(" Pemasukkan Dan Pengeluaran Telah Ditambahkan ").center(45, '+')
 
     elif pilihan == "B":
         print("---------------------------------------------")
@@ -42,11 +42,11 @@ while True :
             print("---------------------------------------------\n")
 
         elif saldo == 0 :
-            print(" Kasian T Ada Perubahan ".center(45, '='))
+            print(" Kasian T Ada Perubahan ".center(45, '+'))
             print("---------------------------------------------\n")
 
         else :
-            print(" Kase Banya Jo Itu Utang ".center(45, '='))
+            print(" Kase Banya Jo Itu Utang ".center(45, '+'))
             print("--------------------------------------------\n")
 
     elif pilihan == "D":
