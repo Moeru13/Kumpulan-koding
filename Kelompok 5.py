@@ -9,7 +9,7 @@ def keterangan():
     print("| D. Keluar                                 |")
     print("---------------------------------------------")
 
-income = []
+income  = []
 outcome = []
 
 while True :
@@ -32,11 +32,13 @@ while True :
     elif pilihan == "C":
         saldo = sum(income) - sum(outcome)
         print("---------------------------------------------")
-        print("| Total Saldo : Rp",saldo)
+        print("| Total Pemasukan   : Rp",sum(income))
+        print("| Total Pengeluaran : Rp",sum(outcome))
+        print("| Total Saldo       : Rp",saldo)
         print("---------------------------------------------")
 
         if saldo >= 1:
-            print(" Sediki Lagi Somo Kaya ".center(45, '='))
+            print(" Sediki Lagi Somo Kaya ".center(45, '+'))
             print("---------------------------------------------\n")
 
         elif saldo == 0 :
@@ -48,11 +50,11 @@ while True :
             print("--------------------------------------------\n")
 
     elif pilihan == "D":
-        print("--------------------------------------------")
-        print("| Terimakasih Atas Kepercayaan Kepada Kami |")
-        print("|    Semoga Kelak Anda Jadi Orang Kaya     |")
-        print("|                   AMIN                   |")
-        print("--------------------------------------------")
+        print("-"*45)
+        print("Terimakasih Atas Kepercayaan Kepada Kami".center(45,' '))
+        print("Semoga Kelak Anda Jadi Orang Kaya".center(45,' '))
+        print("AMIN".center(45,' '))
+        print("-"*45)
         exit()
 
     else:
