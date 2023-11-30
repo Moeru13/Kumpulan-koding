@@ -22,6 +22,7 @@ while True :
         income.append(pemasukkan)
         outcome.append(pengeluaran)
         print(" Pemasukkan Dan Pengeluaran Telah Ditambahkan ").center(45, '+')
+        print("-"*45)
 
     elif pilihan == "B":
         print("---------------------------------------------")
