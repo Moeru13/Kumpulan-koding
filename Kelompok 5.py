@@ -1,7 +1,5 @@
 # Manajemen Keuangan 
-# - Pencatatan Keuangan 
-# - Tampilkan Riwayat Transaksi 
-# - Hitung Saldo Akhir
+# - Pencatatan Income # - Tampilkan Riwayat Transaksi # - Hitung Saldo Akhir
 
 def keterangan():
     print("---------------------------------------------")
@@ -34,30 +32,15 @@ while True :
         income.append(pemasukkan)
         outcome.append(pengeluaran)
         print()
-        print("Keuangan Ada Telah Dicatat".center(45,"-"))
-        print()
 
-        tanya = input("Tekan y untuk masuk ke menu utama : ").lower()
-        if tanya == "y":
-            print()
-        else : 
-            selesai()
+    elif pilihan == "B":
+        print("---------------------------------------------")
+        print(" Riwayat Transaksi ".center(45,"="))
+        print("| Pemasukkan  : Rp",sum(income))
+        print("| Pengeluaran : Rp",sum(outcome))
+        print("---------------------------------------------\n")
 
-    # - Tampilkan Riwayat Transaksi 
-    elif pilihan == "2":
-        for nomor,pemasukkan in enumerate(income):
-            print(" Riwayat Transaksi ".center(45, "="))
-            print(f"{nomor+1} | Pemasukkan  : Rp{pemasukkan}\n  | Pengeluaran : Rp{outcome[nomor]}")
-            print("-"*45)
-            print()
-        tanya = input("Tekan y untuk masuk ke menu utama : ").lower()
-        if tanya == "y":
-            print()
-        else : 
-            selesai()
-
-    # - Hitung Saldo Akhir
-    elif pilihan == "3":
+    elif pilihan == "C":
         saldo = sum(income) - sum(outcome)
         print(" Total Saldo ".center(45, "="))
         print("| Total Pemasukan   : Rp",sum(income))
