@@ -1,8 +1,16 @@
-# Manajemen Keuangan 
-# - Pencatatan Keuangan 
-# - Tampilkan Riwayat Transaksi 
-# - Hitung Saldo Akhir
+''' Kelompok 5
+    Projek         : Manajemen Keuangan 
+    Fungsionalitas : - Pencatatan Income Dan Outcome
+                     - Tampilkan Riwayat Transaksi 
+                     - Hitung Saldo Akhir
+    Anggota        : 1.
+                     2.
+                     3.
+                     4.
+ 
+'''
 
+# Definisi
 def keterangan():
     print("---------------------------------------------")
     print("| 1. Pencatatan Pemasukkan Dan Pengeluaran  |")
@@ -22,12 +30,13 @@ def selesai():
 income  = []
 outcome = []
 
+# Kodingan program
 while True :
     # Menampilkan Menu
     keterangan()
     pilihan = input("Masukkan Pilihan Anda : ")
 
-    # - Pencatatan Keuangan
+    # - Pencatatan Income Dan Outcome
     if pilihan == "1":
         pemasukkan  = float(input("Masukkan Pendapatan  : Rp "))
         pengeluaran = float(input("Masukkan Pengeluaran : Rp "))
