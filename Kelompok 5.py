@@ -7,7 +7,7 @@
                      2. ALDRICH BRIAN MANGILE       (231011060014)
                      3. ARIEL STEVEN GANTARE        (231011060016)
                      4. INRY BUA RANTE              (231011060029)
- 
+
 '''
 
 # Definisi
@@ -49,10 +49,10 @@ while True :
         tanya = input("Tekan y untuk masuk ke menu utama : ").lower()
         if tanya == "y":
             print()
-        else : 
+        else :
             selesai()
 
-    # - Tampilkan Riwayat Transaksi 
+    # - Tampilkan Riwayat Transaksi
     elif pilihan == "2":
         for nomor,pemasukkan in enumerate(income):
             print(" Riwayat Transaksi ".center(45, "="))
@@ -62,7 +62,7 @@ while True :
         tanya = input("Tekan y untuk masuk ke menu utama : ").lower()
         if tanya == "y":
             print()
-        else : 
+        else :
             selesai()
 
     # - Hitung Saldo Akhir
