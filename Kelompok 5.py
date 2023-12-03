@@ -3,10 +3,10 @@
     Fungsionalitas : - Pencatatan Income Dan Outcome
                      - Tampilkan Riwayat Transaksi 
                      - Hitung Saldo Akhir
-    Anggota        : 1.
-                     2.
-                     3.
-                     4.
+    Anggota        : 1. APRILIA NELCELYN TABUKANG   (231011060001)
+                     2. ALDRICH BRIAN MANGILE       (231011060014)
+                     3. ARIEL STEVEN GANTARE        (231011060016)
+                     4. INRY BUA RANTE              (231011060029)
  
 '''
 
